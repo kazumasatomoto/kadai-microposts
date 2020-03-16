@@ -12,6 +12,6 @@
   </aside>
   <div class="col-sm-8">
     <%= render 'menu', user: @user, count_microposts: @count_microposts, count_followings: @count_followings, count_followers: @count_followers, count_likes: @count_likes %>
-    <%= render 'microposts/microposts', microposts: @microposts %>
+    <%= render 'users', users: @followers %>
   </div>
 </div>
